@@ -80,7 +80,7 @@ export default function Cats() {
                     <Link to="/wildlife-spotting/dogs" style={{textDecoration:'none'}}>
                         <div className='item' style={{textAlign:'center'}}>
                             <h3>Previous Page</h3>
-                            <img src="imgs/logo2.png" alt="home"  width={200} height={140}/>
+                            <img src="imgs/logo2.png" alt="logo2"  width={200} height={140}/>
                             <h3 style={{color:'#0C0C0E'}}>DOG</h3>
                         </div>
                     </Link>

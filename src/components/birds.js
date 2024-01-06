@@ -62,7 +62,7 @@ export default function Birds() {
         <div className='container' style={{margin:'0',padding:'10px'}}>
             <div className='row' style={{margin:'0'}}>
                 <div className='col-lg-2'>
-                    <Link to="/wildlife-spotting/home" style={{textDecoration:'none'}}>
+                    <Link to="/wildlife-spotting" style={{textDecoration:'none'}}>
                         <div className='item' style={{textAlign:'center'}}>
                             <h3>Home Page</h3>
                             <img src="imgs/home.png" alt="home"  width={200} height={140}/>
