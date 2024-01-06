@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/wildlife-spotting/static/css/main.3a95ba3c.css",
+    "main.js": "/wildlife-spotting/static/js/main.efcf2141.js",
+    "static/media/react.png": "/wildlife-spotting/static/media/react.6c4b397cf28f0a8dfbcb.png",
+    "static/media/tf.png": "/wildlife-spotting/static/media/tf.530689d2846acbed681c.png",
+    "static/media/keras.png": "/wildlife-spotting/static/media/keras.50b636f01e50d9f2d513.png",
+    "index.html": "/wildlife-spotting/index.html",
+    "main.3a95ba3c.css.map": "/wildlife-spotting/static/css/main.3a95ba3c.css.map",
+    "main.efcf2141.js.map": "/wildlife-spotting/static/js/main.efcf2141.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.3a95ba3c.css",
+    "static/js/main.efcf2141.js"
+  ]
+}
