@@ -2,6 +2,7 @@ import React from 'react'
 import './animal-detection/classic.css'
 import Heading from './Heading'
 import {moveNext,movePrev,allowDrop,drag,drop} from './animal-detection/function'
+import {Link} from 'react-router-dom';
 export default function Cats() {
 
   return (
@@ -76,13 +77,13 @@ export default function Cats() {
         <div className='container' style={{margin:'0',padding:'10px'}}>
             <div className='row' style={{margin:'0'}}>
                 <div className='col-lg-2'>
-                    <a href="/wildlife-spotting/dogs" style={{textDecoration:'none'}}>
+                    <Link to="/wildlife-spotting/dogs" style={{textDecoration:'none'}}>
                         <div className='item' style={{textAlign:'center'}}>
                             <h3>Previous Page</h3>
                             <img src="imgs/logo2.png" alt="home"  width={200} height={140}/>
                             <h3 style={{color:'#0C0C0E'}}>DOG</h3>
                         </div>
-                    </a>
+                    </Link>
                 </div>
                 <div className='col-lg-8 text-center'>
                     <div id="div1" style={{width:'500px',height:'350px',border:'1px solid black',margin:'auto',display: 'flex',justifyContent: 'center',alignItems: 'center',position: 'relative',background:'lightblue'}} onDrop={drop} onDragOver={allowDrop}>
@@ -91,13 +92,13 @@ export default function Cats() {
                     </div>
                 </div>
                 <div className='col-lg-2'>
-                    <a href="/wildlife-spotting/cows" style={{textDecoration:'none'}}>
+                    <Link to="/wildlife-spotting/cows" style={{textDecoration:'none'}}>
                         <div className='item' style={{textAlign:'center'}}>
                             <h3>Next Page</h3>
                             <img src="imgs/logo4.png" alt="logo4"  width={200} height={140}/>
                             <h3 style={{color:'#B57F2F'}}>COW</h3>
                         </div>
-                    </a>
+                    </Link>
                 </div>
             </div>
         </div>

@@ -1,6 +1,7 @@
 import React from 'react'
 import Heading from './Heading'
 import './animal-detection/global.css'
+import {Link} from 'react-router-dom';
 export default function Explore() {
   return (
     <div>
@@ -86,9 +87,9 @@ export default function Explore() {
             </div>
         </div>
         <div className='text-center'>
-            <a href="/wildlife-spotting/explore-more" style={{textDecoration:'none'}}>
+            <Link to="/wildlife-spotting/explore-more" style={{textDecoration:'none'}}>
                 <button type="button" style={{background:'linear-gradient(to right, #5170FF,#FF66C4)',textAlign:'center',color:'white',fontWeight:"bold",borderRadius:'10px',padding:'5px'}}>Explore More</button>
-            </a>
+            </Link>
         </div>
     </div>
   )

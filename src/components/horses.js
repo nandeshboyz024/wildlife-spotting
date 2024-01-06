@@ -1,6 +1,7 @@
 import React from 'react'
 import './animal-detection/classic.css'
 import {moveNext,movePrev,allowDrop,drag,drop} from './animal-detection/function'
+import {Link} from 'react-router-dom';
 import Heading from './Heading'
 export default function Horses() {
   return (
@@ -69,13 +70,13 @@ export default function Horses() {
         <div className='container' style={{margin:'0',padding:'10px'}}>
             <div className='row' style={{margin:'0'}}>
                 <div className='col-lg-2'>
-                    <a href="/wildlife-spotting/elephants" style={{textDecoration:'none'}}>
+                    <Link to="/wildlife-spotting/elephants" style={{textDecoration:'none'}}>
                         <div className='item' style={{textAlign:'center'}} >
                             <h3>Previous Page</h3>
                             <img  src="imgs/logo7.png" alt="logo7"  width={200} height={140}/>
                             <h3 style={{marginLeft:'70px',color:'#00052B'}}>Elephant</h3>
                         </div>
-                    </a>
+                    </Link>
                 </div>
                 <div className='col-lg-8 text-center'>
                     <div id="div1" style={{width:'500px',height:'350px',border:'1px solid black',margin:'auto',display: 'flex',justifyContent: 'center',alignItems: 'center',position: 'relative',background:'lightblue'}} onDrop={drop} onDragOver={allowDrop}>
@@ -84,13 +85,13 @@ export default function Horses() {
                     </div>
                 </div>
                 <div className='col-lg-2'>
-                    <a href="/wildlife-spotting/zebras" style={{textDecoration:'none'}}>
+                    <Link to="/wildlife-spotting/zebras" style={{textDecoration:'none'}}>
                         <div className='item' style={{textAlign:'center'}}>
                             <h3>Next Page</h3>
                             <img  src="imgs/logo9.png" alt="logo9"  width={200} height={140}/>
                             <h3 style={{color:'#000000'}}>Zebra</h3>
                         </div>
-                    </a>
+                    </Link>
                 </div>
             </div>
         </div>

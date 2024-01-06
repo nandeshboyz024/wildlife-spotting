@@ -1,6 +1,7 @@
 import React from 'react'
 import './animal-detection/classic.css'
 import {moveNext,movePrev,allowDrop,drag,drop} from './animal-detection/function'
+import {Link} from 'react-router-dom';
 import Heading from './Heading'
 export default function Cows() {
   return (
@@ -91,13 +92,13 @@ export default function Cows() {
         <div className='container' style={{margin:'0',padding:'10px'}}>
             <div className='row' style={{margin:'0'}}>
                 <div className='col-lg-2'>
-                    <a href="/wildlife-spotting/cats" style={{textDecoration:'none'}}>
+                    <Link to="/wildlife-spotting/cats" style={{textDecoration:'none'}}>
                         <div className='item' style={{textAlign:'center'}}>
                             <h3>Previous Page</h3>
                             <img src="imgs/logo3.png" alt="logo3"  width={200} height={140}/>
                             <h3 style={{color:'#DA251C'}}>CAT</h3>
                         </div>
-                    </a>
+                    </Link>
                 </div>
                 <div className='col-lg-8 text-center'>
                     <div id="div1" style={{width:'500px',height:'350px',border:'1px solid black',margin:'auto',display: 'flex',justifyContent: 'center',alignItems: 'center',position: 'relative',background:'lightblue'}} onDrop={drop} onDragOver={allowDrop}>
@@ -106,13 +107,13 @@ export default function Cows() {
                     </div>
                 </div>
                 <div className='col-lg-2'>
-                    <a href="/wildlife-spotting/sheeps" style={{textDecoration:'none'}}>
+                    <Link to="/wildlife-spotting/sheeps" style={{textDecoration:'none'}}>
                         <div className='item' style={{textAlign:'center'}}>
                             <h3>Next Page</h3>
                             <img src="imgs/logo5.png" alt="logo5"  width={200} height={140}/>
                             <h3 style={{color:'#232929'}}>Sheep</h3>
                         </div>
-                    </a>
+                    </Link>
                 </div>
             </div>
         </div>
