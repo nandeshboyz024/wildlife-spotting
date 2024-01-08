@@ -17,10 +17,7 @@ export default function Home() {
                     <p style={{textAlign:'justify',fontSize:'20px'}}>
                         Are you feeling overwhelmed trying to identify animals? No need to worry! You are in the right place. Let AI be your guide as we explore the wonders of our jungle together.
                     </p>
-                    <div style={{display:'flex',justifyContent:'space-around',margin:'20px'}}>
-                        <Link to="/wildlife-spotting/detection" style={{textDecoration:'none'}}>
-                            <button type="button" style={{background:'linear-gradient(to right, #5170FF,#FF66C4)',textAlign:'center',color:'white',fontWeight:"bold",borderRadius:'10px',padding:'5px'}}>Detect Now</button>
-                        </Link>
+                    <div className='text-center' style={{padding:'20px'}}>
                         <Link to="/wildlife-spotting/explore" style={{textDecoration:'none'}}>
                             <button type="button" style={{background:'linear-gradient(to right, #5170FF,#FF66C4)',textAlign:'center',color:'white',fontWeight:"bold",borderRadius:'10px',padding:'5px'}}>Explore Now</button>
                         </Link>

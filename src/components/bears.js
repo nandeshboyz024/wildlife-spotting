@@ -57,8 +57,8 @@ export default function Bears() {
                 </div>
             </div>
         </div>
-        <div className='container' style={{margin:'0',padding:'10px'}}>
-            <div className='row' style={{margin:'0'}}>
+        <div  style={{padding:'20px'}}>
+            <div className='row'>
                 <div className='col-lg-2'>
                     <Link to="/wildlife-spotting/sheeps" style={{textDecoration:'none'}}>
                         <div className='item' style={{textAlign:'center'}}>

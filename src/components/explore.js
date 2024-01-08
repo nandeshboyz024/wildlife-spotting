@@ -6,87 +6,37 @@ export default function Explore() {
   return (
     <div>
         <Heading/>
-        <div className='container' style={{textAlign:'justify'}}>
+        <div style={{paddingTop:'20px'}}>
             <div className='row'>
-                <div className='col-lg-4 center-div' style={{height:'160px'}}>
-                    <div className='card' style={{padding:'10px'}}>
-                        <div className='text-center'>
-                            <h4>Adventure Watchers</h4>
-                        </div>
-                        <p>Keep an eye on animals in the wild, learn how they move and live and protect those who need our help.</p>
-                    </div>
+                <div className='col-lg-7' style={{textAlign:'justify'}}>
+                    <h1 style={{marginLeft:'10px'}}>Counting & Monitoring Animals</h1>
+                    <p style={{fontSize:'20px',margin:'20px'}}>
+                        Animal detection helps in counting and monitoring wildlife populations.
+                        Scientists use this AI to keep track of endangered animals, like real-life superheroes for nature.
+                        Knowing the population size helps conservationists make informed decisions.
+                    </p>
                 </div>
-                <div className='col-lg-4 center-div' style={{height:'160px'}}>
-                    <div className='card'style={{padding:'10px'}}>
-                        <div className='text-center'>
-                            <h4>Farm Guardians</h4>
-                        </div>
-                        <p> Guard crops from wild visitors and find and stop bugs that bother our plants </p>
-                    </div>
-                </div>
-                <div className='col-lg-4 center-div' style={{height:'160px'}}>
-                    <div className='card'style={{padding:'10px'}}>
-                        <div className='text-center'>
-                            <h4>Nature Detectives</h4>
-                        </div>
-                        <p>Check how animals change nature and make sure all kinds of living things are safe.</p>
-                    </div>
-                </div>
-            </div>
-            <div className='row'>
-                <div className='col-lg-4 center-div' style={{height:'160px'}}>
-                    <div className='card'style={{padding:'10px'}}>
-                        <div className='text-center'>
-                            <h4>Wildlife Security Guards</h4>
-                        </div>
-                        <p> Stop animals from going where they should not and make sure our special places for animals are safe.</p>
-                    </div>
-                </div>
-                <div className='col-lg-4 center-div' style={{height:'160px'}}>
-                    <div className='card'style={{padding:'10px'}}>
-                        <div className='text-center'>
-                            <h4>Road Rangers</h4>
-                        </div>
-                        <p> See if animals are on roads and help cars drive safely and avoid hitting animals.</p>
-                    </div>
-                </div>
-                <div className='col-lg-4 center-div' style={{height:'160px'}}>
-                    <div className='card'style={{padding:'10px'}}>
-                        <div className='text-center'>
-                            <h4>Check Happiness</h4>
-                        </div>
-                        <p> Watch over animals in zoos or labs and make sure they are happy and healthy.</p>
-                    </div>
-                </div>
-            </div>
-            <div className='row'>
-                <div className='col-lg-4 center-div' style={{height:'160px'}}>
-                    <div className='card'style={{padding:'10px'}}>
-                        <div className='text-center'>
-                            <h4>Animal Peacekeeper</h4>
-                        </div>
-                        <p>Find animals near homes early and tell grown-ups to keep everyone safe.</p>
-                    </div>
-                </div>
-                <div className='col-lg-4 center-div' style={{height:'160px'}}>
-                    <div className='card'style={{padding:'10px'}}>
-                        <div className='text-center'>
-                            <h4>Hidden Camera Friends</h4>
-                        </div>
-                        <p>Use special cameras to spy on animals in the wild and learn about animals without bothering them.</p>
-                    </div>
-                </div>
-                <div className='col-lg-4 center-div' style={{height:'160px'}}>
-                    <div className='card' style={{padding:'10px'}}>
-                        <div className='text-center'>
-                            <h4>Rescue Heroes</h4>
-                        </div>
-                        <p> Find and help animals in trouble and help after big problems like floods or storms.</p>
-                    </div>
+                <div className='col-lg-5 text-center'>
+                    <video src="demo/counting-animals.mp4" className="img-fluid" width={500} height={350} controls/>
                 </div>
             </div>
         </div>
-        <div className='text-center'>
+        <div style={{paddingTop:'20px'}}>
+            <div className='row'>
+                <div className='col-lg-7' style={{textAlign:'justify'}}>
+                    <h1 style={{marginLeft:'10px'}}>Why AI is so important for animal safety ?</h1>
+                    <p style={{fontSize:'20px',margin:'20px'}}>
+                        AI can spot animals from a distance. This helps us know when animals are near the road, giving us time to take action.
+                        By alerting drivers and even changing traffic signals, AI can help prevent accidents between animals and vehicles.
+                        Some animals are rare or endangered. AI helps us keep track of them and ensures they are protected, allowing us to live together peacefully.
+                    </p>
+                </div>
+                <div className='col-lg-5 text-center'>
+                    <video src="demo/elephant-road-crossing.mp4" className="img-fluid" width={500} height={350} controls/>
+                </div>
+            </div>
+        </div>
+        <div className='text-center' style={{padding:'20px'}}>
             <Link to="/wildlife-spotting/explore-more" style={{textDecoration:'none'}}>
                 <button type="button" style={{background:'linear-gradient(to right, #5170FF,#FF66C4)',textAlign:'center',color:'white',fontWeight:"bold",borderRadius:'10px',padding:'5px'}}>Explore More</button>
             </Link>

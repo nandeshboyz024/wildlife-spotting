@@ -1,5 +1,4 @@
 import React from 'react';
-import './index.css'
 import Home from './components/home';
 import { BrowserRouter as Router,Routes,Route} from 'react-router-dom';
 import Birds from './components/birds';
