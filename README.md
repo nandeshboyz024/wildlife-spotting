@@ -1,4 +1,4 @@
-You can take demo here... (http://nandeshboyz024.github.io/wildlife-spotting)
+Take a demo with [Wildlife Spotting](http://nandeshboyz024.github.io/wildlife-spotting).
 
 # Getting Started with Create React App
 
